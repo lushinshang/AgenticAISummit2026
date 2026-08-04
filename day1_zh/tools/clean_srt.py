@@ -1,5 +1,5 @@
 #!/usr/bin/env python3
-"""前處理：把 en_srt/ 的 SRT 統一解析、清洗填充語，輸出帶時間戳的 JSONL 中繼檔。
+"""前處理：把 _source/en_srt/ 的 SRT 統一解析、清洗填充語，輸出帶時間戳的 JSONL 中繼檔。
 
 以 SRT 為唯一來源（.txt 有兩種斷句格式，SRT 兩種檔都是標準格式），
 順帶解決 proposal 記錄的「txt 斷句不一致」與「檔名格式不一致」兩個坑。
@@ -10,7 +10,7 @@ import sys
 from pathlib import Path
 
 BASE = Path(__file__).resolve().parents[2]
-SRC = BASE / "en_srt"
+SRC = BASE / "_source" / "en_srt"
 OUT = Path(__file__).resolve().parent / "cleaned"
 
 # 舞台 -> (上午檔名關鍵字, 下午檔名關鍵字)

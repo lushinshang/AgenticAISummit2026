@@ -10,7 +10,7 @@ import sys
 from pathlib import Path
 
 BASE = Path(__file__).resolve().parents[2]
-SRC = BASE / "day2"
+SRC = BASE / "_source" / "day2"
 OUT = Path(__file__).resolve().parent / "cleaned"
 
 # 舞台 -> (上午檔名關鍵字, 下午檔名關鍵字)
