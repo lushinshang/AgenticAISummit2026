@@ -4,7 +4,7 @@
     "session_index": 2,
     "time_label": "09:40 AM",
     "title": "第 1 場次：企業 AI — 精選演講",
-    "chars": 13280,
+    "chars": 13445,
     "file": "day2_zh/tools/sections/plenary/s02.md"
   },
   {
@@ -12,7 +12,7 @@
     "session_index": 3,
     "time_label": "10:15 AM",
     "title": "第 1 場次：企業 AI — 座談會",
-    "chars": 10978,
+    "chars": 11848,
     "file": "day2_zh/tools/sections/plenary/s03.md"
   },
   {
@@ -20,7 +20,7 @@
     "session_index": 5,
     "time_label": "11:05 AM",
     "title": "爐邊對談",
-    "chars": 12245,
+    "chars": 13962,
     "file": "day2_zh/tools/sections/plenary/s05.md"
   },
   {
@@ -28,7 +28,7 @@
     "session_index": 7,
     "time_label": "01:00 PM",
     "title": "第 2 場次：前沿研究 — 精選演講",
-    "chars": 8205,
+    "chars": 8842,
     "file": "day2_zh/tools/sections/plenary/s07.md"
   },
   {
@@ -36,7 +36,7 @@
     "session_index": 8,
     "time_label": "01:40 PM",
     "title": "第 2 場次：前沿研究 — 座談會",
-    "chars": 10281,
+    "chars": 11380,
     "file": "day2_zh/tools/sections/plenary/s08.md"
   },
   {
@@ -44,7 +44,7 @@
     "session_index": 9,
     "time_label": "02:15 PM",
     "title": "第 3 場次：代理型 AI 開發者平台 — 座談會",
-    "chars": 10264,
+    "chars": 11259,
     "file": "day2_zh/tools/sections/plenary/s09.md"
   },
   {
@@ -52,7 +52,7 @@
     "session_index": 10,
     "time_label": "02:50 PM",
     "title": "第 4 場次：金融與法律領域的代理型 AI — 精選演講",
-    "chars": 10281,
+    "chars": 11063,
     "file": "day2_zh/tools/sections/plenary/s10.md"
   },
   {
@@ -60,7 +60,7 @@
     "session_index": 11,
     "time_label": "03:20 PM",
     "title": "第 4 場次：金融與法律領域的代理型 AI — 座談會",
-    "chars": 8429,
+    "chars": 9029,
     "file": "day2_zh/tools/sections/plenary/s11.md"
   },
   {
@@ -68,7 +68,7 @@
     "session_index": 12,
     "time_label": "03:50 PM",
     "title": "新創焦點",
-    "chars": 21806,
+    "chars": 22221,
     "file": "day2_zh/tools/sections/plenary/s12.md"
   },
   {
@@ -76,7 +76,7 @@
     "session_index": 1,
     "time_label": "10:00 AM",
     "title": "第 1 場：企業 AI — 主題演講",
-    "chars": 5103,
+    "chars": 5132,
     "file": "day2_zh/tools/sections/atlas/s01.md"
   },
   {
@@ -84,7 +84,7 @@
     "session_index": 2,
     "time_label": "10:15 AM",
     "title": "第 1 場：企業 AI — 精選演講",
-    "chars": 15939,
+    "chars": 16135,
     "file": "day2_zh/tools/sections/atlas/s02.md"
   },
   {
@@ -92,7 +92,7 @@
     "session_index": 3,
     "time_label": "11:10 AM",
     "title": "工作坊：從助理到 AI 員工：設計擁有角色而非任務的代理人（由 Ema 提供）",
-    "chars": 18410,
+    "chars": 19127,
     "file": "day2_zh/tools/sections/atlas/s03.md"
   },
   {
@@ -100,7 +100,7 @@
     "session_index": 5,
     "time_label": "01:00 PM",
     "title": "第 2 場：代理人評估與基準測試 — 精選演講",
-    "chars": 15125,
+    "chars": 15337,
     "file": "day2_zh/tools/sections/atlas/s05.md"
   },
   {
@@ -108,7 +108,7 @@
     "session_index": 6,
     "time_label": "01:45 PM",
     "title": "第 3 場：數學 AI — 主題演講",
-    "chars": 5218,
+    "chars": 5245,
     "file": "day2_zh/tools/sections/atlas/s06.md"
   },
   {
@@ -116,7 +116,7 @@
     "session_index": 7,
     "time_label": "02:00 PM",
     "title": "第 3 場：數學 AI — 精選演講",
-    "chars": 4902,
+    "chars": 5078,
     "file": "day2_zh/tools/sections/atlas/s07.md"
   },
   {
@@ -124,7 +124,7 @@
     "session_index": 8,
     "time_label": "02:15 PM",
     "title": "工作坊：Omnigent — 適用於 AI 代理人的中繼框架（由 Databricks 提供）",
-    "chars": 16406,
+    "chars": 17288,
     "file": "day2_zh/tools/sections/atlas/s08.md"
   },
   {
@@ -132,7 +132,7 @@
     "session_index": 1,
     "time_label": "10:00 AM",
     "title": "第 1 場：AI 安全性 — 主題演講",
-    "chars": 5001,
+    "chars": 5020,
     "file": "day2_zh/tools/sections/compass/s01.md"
   },
   {
@@ -140,7 +140,7 @@
     "session_index": 2,
     "time_label": "10:15 AM",
     "title": "第 1 場：AI 安全性 — 精選演講",
-    "chars": 14325,
+    "chars": 14538,
     "file": "day2_zh/tools/sections/compass/s02.md"
   },
   {
@@ -148,7 +148,7 @@
     "session_index": 3,
     "time_label": "11:00 AM",
     "title": "工作坊：您可以對話的基礎設施（由 SUSE 提供）",
-    "chars": 22751,
+    "chars": 22994,
     "file": "day2_zh/tools/sections/compass/s03.md"
   },
   {
@@ -156,7 +156,7 @@
     "session_index": 5,
     "time_label": "01:00 PM",
     "title": "第 2 場：AI 系統 — 精選演講",
-    "chars": 12927,
+    "chars": 13949,
     "file": "day2_zh/tools/sections/compass/s05.md"
   },
   {
@@ -164,7 +164,7 @@
     "session_index": 6,
     "time_label": "01:45 PM",
     "title": "第 3 場：企業 AI — 精選演講",
-    "chars": 15471,
+    "chars": 16617,
     "file": "day2_zh/tools/sections/compass/s06.md"
   },
   {
@@ -172,7 +172,7 @@
     "session_index": 7,
     "time_label": "02:30 PM",
     "title": "第 4 場：代理人評估與基準測試 — 主題演講",
-    "chars": 5322,
+    "chars": 5350,
     "file": "day2_zh/tools/sections/compass/s07.md"
   },
   {
@@ -180,7 +180,7 @@
     "session_index": 8,
     "time_label": "02:45 PM",
     "title": "第 4 場：代理人評估與基準測試 — 精選演講",
-    "chars": 20832,
+    "chars": 21122,
     "file": "day2_zh/tools/sections/compass/s08.md"
   }
 ]
