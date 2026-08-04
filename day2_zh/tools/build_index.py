@@ -53,6 +53,14 @@ header{padding:72px 0 36px;border-bottom:1px solid var(--line);margin-bottom:44p
 h1{font-size:clamp(2rem,4.4vw,2.9rem);line-height:1.28;margin:0 0 14px;text-wrap:balance}
 .lead{color:var(--muted);font-size:16px;margin:0 0 6px}
 .meta{color:var(--dim);font-size:14px;margin:18px 0 0}
+.about{
+  margin:26px 0 0;padding:20px 24px;background:var(--card);
+  border:1px solid var(--line);border-radius:12px;
+}
+.about-h{font-size:1.05rem;margin:0 0 10px;color:var(--accent)}
+.about p{margin:0 0 10px;font-size:15px;color:var(--muted);line-height:1.75}
+.about p:last-child{margin-bottom:0}
+.about-src{font-size:13.5px!important}
 .meta a.src{color:var(--accent);text-decoration:none;border-bottom:1px solid var(--line)}
 .meta a.src:hover{border-bottom-color:var(--accent)}
 h2.day{
@@ -137,22 +145,33 @@ doc = f"""<!DOCTYPE html>
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
-<title>代理型 AI 高峰會 2026｜繁體中文全文與導讀</title>
-<meta name="description" content="Agentic AI Summit 2026 現場錄影的台式繁體中文全文與逐場主題式導讀。">
+<title>Agentic AI Summit 2026 - AI導讀</title>
+<meta name="description" content="Agentic AI Summit 2026（柏克萊 RDI 主辦）現場錄影的繁體中文全文與逐場主題式導讀，兩天七個舞台 70 場議程。">
 <style>{CSS}</style>
 </head>
 <body>
 <div class="wrap">
 
 <header>
-  <h1>代理型 AI 高峰會 2026<br>繁體中文全文與導讀</h1>
-  <p class="lead">Agentic AI Summit 2026 — 加州大學柏克萊分校 RDI 主辦</p>
-  <p class="lead">2026 年 8 月 1–2 日</p>
+  <h1>Agentic AI Summit 2026<br>AI 導讀</h1>
+  <p class="lead">代理型 AI 高峰會 2026 — 加州大學柏克萊分校 RDI 主辦</p>
+  <p class="lead">2026 年 8 月 1–2 日 · UC Berkeley 校園</p>
+
+  <div class="about">
+    <h2 class="about-h">關於這場大會</h2>
+    <p>由柏克萊 RDI（負責任去中心化智慧中心）與 RDI 基金會主辦，延續 2025 年高峰會
+    （逾 2,000 名現場與會者、逾 40,000 名線上參與者）與近 40,000 名學習者的代理型 AI 磨課師社群。
+    如果說 2025 年是「代理人元年」，2026 年就是代理型 AI 在研究、基礎設施與產業部署上爆發成長的一年。</p>
+    <p>大會定位為目前規模最大、最全面的代理型 AI 盛會，議程橫跨基礎模型、代理人框架、
+    模型評估、基礎設施到實際場域部署，並直面安全與防護的關鍵挑戰。兩天七個舞台、70 場議程，
+    講者來自學術界、頂尖 AI 組織、新創與創投。實體票券全數售罄，預計約 5,000 名現場與會者。</p>
+    <p class="about-src">大會官方網站：<a class="src" href="https://rdi.berkeley.edu/events/agentic-ai-summit-2026" target="_blank" rel="noopener">rdi.berkeley.edu/events/agentic-ai-summit-2026</a></p>
+  </div>
+
   <p class="meta">
-    本站內容由現場錄影的英文自動轉錄稿翻譯為台灣用語繁體中文，依大會議程分節；
-    每個舞台另有逐場主題式導讀，梳理講者的核心主張與論點推進。<br>
-    講者姓名、職稱與講題以官方議程表為準；錄音轉錄不清之處在全文中標有 [?] 記號。<br>
-    素材出自大會官方網站：<a class="src" href="https://rdi.berkeley.edu/events/agentic-ai-summit-2026" target="_blank" rel="noopener">rdi.berkeley.edu/events/agentic-ai-summit-2026</a>
+    本站內容由現場錄影的英文自動轉錄稿翻譯為台灣用語繁體中文，依大會議程分節，
+    每次發言前標註發言者；每個舞台另有逐場主題式導讀，梳理講者的核心主張與論點推進。<br>
+    講者姓名、職稱與講題以官方議程表為準；錄音轉錄不清之處在全文中標有 [?] 記號。
   </p>
 </header>
 
