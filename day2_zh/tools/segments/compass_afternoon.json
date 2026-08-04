@@ -1,0 +1,54 @@
+{
+  "stage": "compass",
+  "part": "afternoon",
+  "total_paragraphs": 206,
+  "segments": [
+    {
+      "session_index": 5,
+      "time": "13:00",
+      "title": "第 2 場：AI 系統 - 精選演講",
+      "start_para": 0,
+      "end_para": 47,
+      "evidence": "\"Based on human observation. And starting from the beginning, it has tried more than 120 experiments... let me make a conclusion about some license pitchforks and limits we learned.\" 全篇首段內容談代理人構建生產系統的實驗與經驗教訓，與 Jun Yang 講題「經驗教訓、陷阱與極限」高度吻合，但無主持人介紹或講者自報姓名可直接佐證。",
+      "confidence": "medium"
+    },
+    {
+      "session_index": 6,
+      "time": "13:45",
+      "title": "第 3 場：企業 AI - 精選演講",
+      "start_para": 48,
+      "end_para": 108,
+      "evidence": "\"That wraps up our AI systems section. We are now on to Enterprise AI, where the first speaker would be Anno Reynas.\" 主持人明確宣布 AI Systems 場次結束、Enterprise AI 場次開始，並介紹下一位講者「Anno Reynas」，即 Eno Reyes（發音相近，agenda 首位講者）。",
+      "confidence": "high"
+    },
+    {
+      "session_index": 7,
+      "time": "14:30",
+      "title": "第 4 場：代理人評估與基準測試 - 主題演講",
+      "start_para": 109,
+      "end_para": 129,
+      "evidence": "\"That now brings us to the session for agent evolution and benchmarks. We'll be starting with Debashi Raha, VP and fellow engineer at DigitalOcean on preferences, benchmarks, model routing.\" 主持人明確介紹新場次「代理人評估與基準測試」並點名首位講者 Debashi Raha，即 agenda 的 Debarshi Raha（拼寫相近）。",
+      "confidence": "high"
+    },
+    {
+      "session_index": 8,
+      "time": "14:45",
+      "title": "第 4 場：代理人評估與基準測試 - 精選演講",
+      "start_para": 130,
+      "end_para": 204,
+      "evidence": "\"We now have Emily Zhu with Head of Enterprise AI at Scale AI on the exam before Enterprise deployment.\" 主持人介紹下一位講者「Emily Zhu」，對應 agenda 的 Yuan (Emily) Xue（Xue 發音近似被誤聽為 Zhu），講題「企業部署前的考驗」與 agenda 相符。",
+      "confidence": "high"
+    },
+    {
+      "session_index": 9,
+      "time": "15:40",
+      "title": "酒會與海報展示",
+      "start_para": 205,
+      "end_para": 205,
+      "evidence": "\"And that concludes our sessions. We have a reception and posters to see downstairs. Thank you for your presence and your attention.\" 主持人宣布所有場次結束，邀請大家至樓下參加酒會與海報展示，對應 agenda 15:40 的「酒會與海報展示」。",
+      "confidence": "high"
+    }
+  ],
+  "head_noise": [],
+  "notes": "本檔已知缺漏：錄影前 11 分半空白已於前處理階段濾掉，本檔第 0 段（start=691.92s，約 11:31）第一句「Based on human observation.」已在演講中途，代表 Jun Yang 演講的開頭（含主持人介紹）已缺失，故 session_index 5 的 start_para=0 只能视为「檔案內最早可得段落」，非真正演講起點，confidence 標為 medium。另外，講者姓名與 agenda 拼法有多處轉錄誤差（皆已在各段 evidence 中說明相近發音對應關係）：Ankit Sobti 在段落中被轉錄為「Rick Crawford」（但主題與段落內容仍與 Postman／Ankit Sobti 一致，僅影響場次內部子講者辨識，不影響本次僅需的場次級 session_index 6 起點判斷）；Eno Reyes 被轉錄為「Anno Reynas」；Debarshi Raha 轉錄為「Debashi Raha」；Yuan (Emily) Xue 轉錄為「Emily Zhu」。agenda 中 index 6 場次講者 Christopher Petrillo 於現場缺席（主持人於段落 idx87 提及「Do we have Christopher Petrillo... Otherwise... we will move on」），但此屬場次內部子講者層級，不影響本檔僅需輸出的 5 個場次級切點。本次僅輸出 agenda 5 個議程項目的場次級起訖點，未逐一標註場次內各講者的切點（規格未要求）。"
+}

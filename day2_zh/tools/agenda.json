@@ -1,0 +1,957 @@
+{
+  "plenary": {
+    "order": 1,
+    "name_zh": "大會舞台",
+    "name_en": "Plenary Stage",
+    "sessions": [
+      {
+        "index": 1,
+        "time": "09:30",
+        "time_label": "09:30 AM",
+        "title": "開幕致詞",
+        "kind": "content",
+        "speakers": [
+          {
+            "name": "Jennifer Chayes",
+            "affiliation": "加州大學柏克萊分校 CDSS 院長",
+            "role": "講者",
+            "topic": ""
+          },
+          {
+            "name": "Dawn Song",
+            "affiliation": "加州大學柏克萊分校教授；柏克萊 RDI 共同主任；Meta 超級智慧實驗室 AI 研究副總裁",
+            "role": "講者",
+            "topic": ""
+          }
+        ],
+        "raw_lines": [
+          "- Jennifer Chayes (加州大學柏克萊分校 CDSS 院長)",
+          "- Dawn Song (加州大學柏克萊分校教授；柏克萊 RDI 共同主任；Meta 超級智慧實驗室 AI 研究副總裁)"
+        ]
+      },
+      {
+        "index": 2,
+        "time": "09:40",
+        "time_label": "09:40 AM",
+        "title": "第 1 場次：企業 AI - 精選演講",
+        "kind": "content",
+        "speakers": [
+          {
+            "name": "Rao Surapaneni",
+            "affiliation": "Google Cloud AI 搜尋與特化 AI 副總裁暨總經理",
+            "role": "講者",
+            "topic": "企業 AI - 代理人治理"
+          },
+          {
+            "name": "Adarsh Hiremath",
+            "affiliation": "Mercor 共同執行長",
+            "role": "講者",
+            "topic": "企業 AI"
+          },
+          {
+            "name": "Duncan Lennox",
+            "affiliation": "HubSpot 產品與技術長",
+            "role": "講者",
+            "topic": "現成 AI 遇到了瓶頸。這是 HubSpot 的解決之道。"
+          }
+        ],
+        "raw_lines": [
+          "- Rao Surapaneni (Google Cloud AI 搜尋與特化 AI 副總裁暨總經理)",
+          "*主題：企業 AI - 代理人治理*",
+          "- Adarsh Hiremath (Mercor 共同執行長)",
+          "*主題：企業 AI*",
+          "- Duncan Lennox (HubSpot 產品與技術長)",
+          "*主題：現成 AI 遇到了瓶頸。這是 HubSpot 的解決之道。*"
+        ]
+      },
+      {
+        "index": 3,
+        "time": "10:15",
+        "time_label": "10:15 AM",
+        "title": "第 1 場次：企業 AI - 座談會",
+        "kind": "content",
+        "speakers": [
+          {
+            "name": "Rao Surapaneni",
+            "affiliation": "",
+            "role": "與談人",
+            "topic": ""
+          },
+          {
+            "name": "Adarsh Hiremath",
+            "affiliation": "",
+            "role": "與談人",
+            "topic": ""
+          },
+          {
+            "name": "Duncan Lennox",
+            "affiliation": "",
+            "role": "與談人",
+            "topic": ""
+          },
+          {
+            "name": "Anahita Tafvizi",
+            "affiliation": "Snowflake 首席資料與 AI 官",
+            "role": "與談人",
+            "topic": ""
+          },
+          {
+            "name": "Surojit Chatterjee",
+            "affiliation": "Ema 創辦人暨執行長",
+            "role": "與談人",
+            "topic": ""
+          },
+          {
+            "name": "Aaron Jacobson",
+            "affiliation": "NEA 一般合夥人",
+            "role": "主持人",
+            "topic": ""
+          }
+        ],
+        "raw_lines": [
+          "- 與談人：Rao Surapaneni, Adarsh Hiremath, Duncan Lennox, Anahita Tafvizi (Snowflake 首席資料與 AI 官), Surojit Chatterjee (Ema 創辦人暨執行長)",
+          "- 主持人：Aaron Jacobson (NEA 一般合夥人)"
+        ]
+      },
+      {
+        "index": 4,
+        "time": "10:45",
+        "time_label": "10:45 AM",
+        "title": "休息",
+        "kind": "break",
+        "speakers": [],
+        "raw_lines": []
+      },
+      {
+        "index": 5,
+        "time": "11:05",
+        "time_label": "11:05 AM",
+        "title": "爐邊對談",
+        "kind": "content",
+        "speakers": [
+          {
+            "name": "Ali Ghodsi",
+            "affiliation": "Databricks 共同創辦人暨執行長",
+            "role": "對談嘉賓",
+            "topic": ""
+          },
+          {
+            "name": "Andy Konwinski",
+            "affiliation": "Databricks、Perplexity、Laude Ventures 共同創辦人",
+            "role": "對談嘉賓",
+            "topic": ""
+          }
+        ],
+        "raw_lines": [
+          "- 對談嘉賓：Ali Ghodsi (Databricks 共同創辦人暨執行長)、Andy Konwinski (Databricks、Perplexity、Laude Ventures 共同創辦人)"
+        ]
+      },
+      {
+        "index": 6,
+        "time": "11:30",
+        "time_label": "11:30 AM",
+        "title": "午餐與海報發表",
+        "kind": "break",
+        "speakers": [],
+        "raw_lines": []
+      },
+      {
+        "index": 7,
+        "time": "13:00",
+        "time_label": "01:00 PM",
+        "title": "第 2 場次：前沿研究 - 精選演講",
+        "kind": "content",
+        "speakers": [
+          {
+            "name": "Richard Socher",
+            "affiliation": "Recursive Superintelligence 創辦人暨執行長",
+            "role": "講者",
+            "topic": "尤里卡機器：科學領域的遞迴超級智慧"
+          },
+          {
+            "name": "Ed Chi",
+            "affiliation": "Google DeepMind 研究副總裁",
+            "role": "講者",
+            "topic": "個人化通用代理人的未來"
+          },
+          {
+            "name": "Ekin Dogus Cubuk",
+            "affiliation": "Periodic Labs 共同創辦人",
+            "role": "講者",
+            "topic": "結合實驗、大型語言模型與理論來探索量子材料"
+          },
+          {
+            "name": "Igor Babuschkin",
+            "affiliation": "River AI 共同創辦人暨執行長",
+            "role": "講者",
+            "topic": "個人化 AI 與持續學習：代理型 AI 的新境界"
+          }
+        ],
+        "raw_lines": [
+          "- Richard Socher (Recursive Superintelligence 創辦人暨執行長)",
+          "*主題：尤里卡機器：科學領域的遞迴超級智慧*",
+          "- Ed Chi (Google DeepMind 研究副總裁)",
+          "*主題：個人化通用代理人的未來*",
+          "- Ekin Dogus Cubuk (Periodic Labs 共同創辦人)",
+          "*主題：結合實驗、大型語言模型與理論來探索量子材料*",
+          "- Igor Babuschkin (River AI 共同創辦人暨執行長)",
+          "*主題：個人化 AI 與持續學習：代理型 AI 的新境界*"
+        ]
+      },
+      {
+        "index": 8,
+        "time": "13:40",
+        "time_label": "01:40 PM",
+        "title": "第 2 場次：前沿研究 - 座談會",
+        "kind": "content",
+        "speakers": [
+          {
+            "name": "Richard Socher",
+            "affiliation": "",
+            "role": "與談人",
+            "topic": ""
+          },
+          {
+            "name": "Ed Chi",
+            "affiliation": "",
+            "role": "與談人",
+            "topic": ""
+          },
+          {
+            "name": "Ekin Dogus Cubuk",
+            "affiliation": "",
+            "role": "與談人",
+            "topic": ""
+          },
+          {
+            "name": "Igor Babuschkin",
+            "affiliation": "",
+            "role": "主持人",
+            "topic": ""
+          }
+        ],
+        "raw_lines": [
+          "- 與談人：Richard Socher, Ed Chi, Ekin Dogus Cubuk",
+          "- 主持人：Igor Babuschkin"
+        ]
+      },
+      {
+        "index": 9,
+        "time": "14:15",
+        "time_label": "02:15 PM",
+        "title": "第 3 場次：代理型 AI 開發者平台 - 座談會",
+        "kind": "content",
+        "speakers": [
+          {
+            "name": "Matt White",
+            "affiliation": "前 Linux 基金會全球 AI 科技長；PyTorch 基金會科技長",
+            "role": "與談人",
+            "topic": ""
+          },
+          {
+            "name": "Dima Dmytro Dzhulgakov",
+            "affiliation": "Fireworks AI 共同創辦人暨科技長",
+            "role": "與談人",
+            "topic": ""
+          },
+          {
+            "name": "Ivan Burazin",
+            "affiliation": "Daytona 共同創辦人暨執行長",
+            "role": "與談人",
+            "topic": ""
+          },
+          {
+            "name": "Mazin Gilbert",
+            "affiliation": "代理型 AI 基金會與 Linux 基金會執行董事",
+            "role": "與談人",
+            "topic": ""
+          },
+          {
+            "name": "Megan Morrone",
+            "affiliation": "Axios 科技編輯",
+            "role": "主持人",
+            "topic": ""
+          }
+        ],
+        "raw_lines": [
+          "- 與談人：Matt White (前 Linux 基金會全球 AI 科技長；PyTorch 基金會科技長), Dima Dmytro Dzhulgakov (Fireworks AI 共同創辦人暨科技長), Ivan Burazin (Daytona 共同創辦人暨執行長), Mazin Gilbert (代理型 AI 基金會與 Linux 基金會執行董事)",
+          "- 主持人：Megan Morrone (Axios 科技編輯)"
+        ]
+      },
+      {
+        "index": 10,
+        "time": "14:50",
+        "time_label": "02:50 PM",
+        "title": "第 4 場次：金融與法律領域的代理型 AI - 精選演講",
+        "kind": "content",
+        "speakers": [
+          {
+            "name": "Milind Naphade",
+            "affiliation": "Capital One AI 基礎設施資深副總裁",
+            "role": "講者",
+            "topic": "推進最先進技術：企業代理型 AI 的前沿"
+          },
+          {
+            "name": "Nikhil Chandhok",
+            "affiliation": "Circle 產品與技術長",
+            "role": "講者",
+            "topic": "為代理人經濟建構基礎設施"
+          },
+          {
+            "name": "Faraz Shafiq",
+            "affiliation": "富國銀行 AI 負責人",
+            "role": "講者",
+            "topic": "在 AI 時代重新想像銀行業"
+          }
+        ],
+        "raw_lines": [
+          "- Milind Naphade (Capital One AI 基礎設施資深副總裁)",
+          "*主題：推進最先進技術：企業代理型 AI 的前沿*",
+          "- Nikhil Chandhok (Circle 產品與技術長)",
+          "*主題：為代理人經濟建構基礎設施*",
+          "- Faraz Shafiq (富國銀行 AI 負責人)",
+          "*主題：在 AI 時代重新想像銀行業*"
+        ]
+      },
+      {
+        "index": 11,
+        "time": "15:20",
+        "time_label": "03:20 PM",
+        "title": "第 4 場次：金融與法律領域的代理型 AI - 座談會",
+        "kind": "content",
+        "speakers": [
+          {
+            "name": "Nikhil Chandhok",
+            "affiliation": "",
+            "role": "與談人",
+            "topic": ""
+          },
+          {
+            "name": "Faraz Shafiq",
+            "affiliation": "",
+            "role": "與談人",
+            "topic": ""
+          },
+          {
+            "name": "Matt Carbonara",
+            "affiliation": "Mayfield 投資人",
+            "role": "主持人",
+            "topic": ""
+          }
+        ],
+        "raw_lines": [
+          "- 與談人：Nikhil Chandhok, Faraz Shafiq",
+          "- 主持人：Matt Carbonara (Mayfield 投資人)"
+        ]
+      },
+      {
+        "index": 12,
+        "time": "15:50",
+        "time_label": "03:50 PM",
+        "title": "新創焦點",
+        "kind": "content",
+        "speakers": [
+          {
+            "name": "精選新創：Narada AI, cognee, Nimblemind, AgntID, RELAI, Headroom, Founding Dev, ArmorIQ, Keenable AI, H Company, Ludo Robotics, Nimble",
+            "affiliation": "",
+            "role": "講者",
+            "topic": ""
+          }
+        ],
+        "raw_lines": [
+          "- 精選新創：Narada AI, cognee, Nimblemind, AgntID, RELAI, Headroom, Founding Dev, ArmorIQ, Keenable AI, H Company, Ludo Robotics, Nimble"
+        ]
+      },
+      {
+        "index": 13,
+        "time": "16:50",
+        "time_label": "04:50 PM",
+        "title": "交流酒會與海報發表",
+        "kind": "break",
+        "speakers": [],
+        "raw_lines": []
+      }
+    ]
+  },
+  "atlas": {
+    "order": 2,
+    "name_zh": "Atlas 舞台",
+    "name_en": "Atlas Stage",
+    "sessions": [
+      {
+        "index": 1,
+        "time": "10:00",
+        "time_label": "10:00 AM",
+        "title": "第 1 場：企業 AI - 主題演講",
+        "kind": "content",
+        "speakers": [
+          {
+            "name": "Sunita Verma",
+            "affiliation": "Ironclad 首席技術長",
+            "role": "講者",
+            "topic": "AI 採用的限制因素在於組織層面"
+          }
+        ],
+        "raw_lines": [
+          "- Sunita Verma (Ironclad 首席技術長)",
+          "*主題：AI 採用的限制因素在於組織層面*"
+        ]
+      },
+      {
+        "index": 2,
+        "time": "10:15",
+        "time_label": "10:15 AM",
+        "title": "第 1 場：企業 AI - 精選演講",
+        "kind": "content",
+        "speakers": [
+          {
+            "name": "Ori Goshen",
+            "affiliation": "AI21 Labs 共同創辦人兼執行長",
+            "role": "講者",
+            "topic": "自我最佳化代理人"
+          },
+          {
+            "name": "Rene Pajta",
+            "affiliation": "微軟雲端與 AI 首席架構師",
+            "role": "講者",
+            "topic": "一人獨角獸的企業版本"
+          },
+          {
+            "name": "Vincent Sunn Chen",
+            "affiliation": "Snorkel AI 副總裁兼創始成員",
+            "role": "講者",
+            "topic": "代理人基準測試的藝術與科學"
+          },
+          {
+            "name": "David Hsu",
+            "affiliation": "Retool 執行長兼創辦人",
+            "role": "講者",
+            "topic": "治理是 AI 的瓶頸"
+          },
+          {
+            "name": "Dan Klein",
+            "affiliation": "加州大學柏克萊分校教授；Scaled Cognition 共同創辦人兼首席技術長",
+            "role": "講者",
+            "topic": "超級智慧對決超級可靠性"
+          }
+        ],
+        "raw_lines": [
+          "- Ori Goshen (AI21 Labs 共同創辦人兼執行長)",
+          "*主題：自我最佳化代理人*",
+          "- Rene Pajta (微軟雲端與 AI 首席架構師)",
+          "*主題：一人獨角獸的企業版本*",
+          "- Vincent Sunn Chen (Snorkel AI 副總裁兼創始成員)",
+          "*主題：代理人基準測試的藝術與科學*",
+          "- David Hsu (Retool 執行長兼創辦人)",
+          "*主題：治理是 AI 的瓶頸*",
+          "- Dan Klein (加州大學柏克萊分校教授；Scaled Cognition 共同創辦人兼首席技術長)",
+          "*主題：超級智慧對決超級可靠性*"
+        ]
+      },
+      {
+        "index": 3,
+        "time": "11:10",
+        "time_label": "11:10 AM",
+        "title": "工作坊：從助理到 AI 員工：設計擁有角色而非任務的代理人（由 Ema 提供）",
+        "kind": "content",
+        "speakers": [
+          {
+            "name": "Anushka Pathak",
+            "affiliation": "Ema 產品經理",
+            "role": "講者",
+            "topic": ""
+          },
+          {
+            "name": "Soham Shah",
+            "affiliation": "Ema 機器學習工程師",
+            "role": "講者",
+            "topic": ""
+          },
+          {
+            "name": "Eric Victorson",
+            "affiliation": "Ema 軟體工程師",
+            "role": "講者",
+            "topic": ""
+          }
+        ],
+        "raw_lines": [
+          "- 講者：Anushka Pathak (Ema 產品經理)、Soham Shah (Ema 機器學習工程師)、Eric Victorson (Ema 軟體工程師)"
+        ]
+      },
+      {
+        "index": 4,
+        "time": "12:10",
+        "time_label": "12:10 PM",
+        "title": "午餐與海報展示",
+        "kind": "break",
+        "speakers": [],
+        "raw_lines": []
+      },
+      {
+        "index": 5,
+        "time": "13:00",
+        "time_label": "01:00 PM",
+        "title": "第 2 場：代理人評估與基準測試 - 精選演講",
+        "kind": "content",
+        "speakers": [
+          {
+            "name": "Anastasios N Angelopoulos",
+            "affiliation": "LLMArena 共同創辦人兼執行長",
+            "role": "講者",
+            "topic": "代理人競技場：真實世界中代理人的因果評估"
+          },
+          {
+            "name": "Michal Shmueli-Scheuer",
+            "affiliation": "IBM 研究院 AI 基準測試與評估傑出工程師",
+            "role": "講者",
+            "topic": "準備好迎接通用代理人了嗎？讓我們來測試一下。"
+          },
+          {
+            "name": "Priya Ponnapalli",
+            "affiliation": "Scale AI 企業 AI 工程資深副總裁",
+            "role": "講者",
+            "topic": "構建可靠的代理人：評估優先的方法"
+          },
+          {
+            "name": "Srijith Rajamohan",
+            "affiliation": "Redis AI 研究主管",
+            "role": "講者",
+            "topic": "規格驅動的代理人：階層式規格、工具與基於軌跡的評估"
+          }
+        ],
+        "raw_lines": [
+          "- Anastasios N Angelopoulos (LLMArena 共同創辦人兼執行長)",
+          "*主題：代理人競技場：真實世界中代理人的因果評估*",
+          "- Michal Shmueli-Scheuer (IBM 研究院 AI 基準測試與評估傑出工程師)",
+          "*主題：準備好迎接通用代理人了嗎？讓我們來測試一下。*",
+          "- Priya Ponnapalli (Scale AI 企業 AI 工程資深副總裁)",
+          "*主題：構建可靠的代理人：評估優先的方法*",
+          "- Srijith Rajamohan (Redis AI 研究主管)",
+          "*主題：規格驅動的代理人：階層式規格、工具與基於軌跡的評估*"
+        ]
+      },
+      {
+        "index": 6,
+        "time": "13:45",
+        "time_label": "01:45 PM",
+        "title": "第 3 場：數學 AI - 主題演講",
+        "kind": "content",
+        "speakers": [
+          {
+            "name": "Sergei Gukov",
+            "affiliation": "美國數學研究所執行董事；加州理工學院理論物理與數學系 John D. MacArthur 教授",
+            "role": "講者",
+            "topic": "AI 在長時程與稀疏獎勵任務的未來"
+          }
+        ],
+        "raw_lines": [
+          "- Sergei Gukov (美國數學研究所執行董事；加州理工學院理論物理與數學系 John D. MacArthur 教授)",
+          "*主題：AI 在長時程與稀疏獎勵任務的未來*"
+        ]
+      },
+      {
+        "index": 7,
+        "time": "14:00",
+        "time_label": "02:00 PM",
+        "title": "第 3 場：數學 AI - 精選演講",
+        "kind": "content",
+        "speakers": [
+          {
+            "name": "Lijie Chen",
+            "affiliation": "OpenAI 研究員",
+            "role": "講者",
+            "topic": "單位距離猜想與數學 AI"
+          },
+          {
+            "name": "Vijay Ganesh",
+            "affiliation": "喬治亞理工學院教授",
+            "role": "講者",
+            "topic": "數學與軟體工程的語意對齊模型"
+          }
+        ],
+        "raw_lines": [
+          "- Lijie Chen (OpenAI 研究員)",
+          "*主題：單位距離猜想與數學 AI*",
+          "- Vijay Ganesh (喬治亞理工學院教授)",
+          "*主題：數學與軟體工程的語意對齊模型*"
+        ]
+      },
+      {
+        "index": 8,
+        "time": "14:15",
+        "time_label": "02:15 PM",
+        "title": "工作坊：Omnigent - 適用於 AI 代理人的中繼框架（由 Databricks 提供）",
+        "kind": "content",
+        "speakers": [
+          {
+            "name": "Aravind Segu",
+            "affiliation": "Databricks 軟體工程師",
+            "role": "講者",
+            "topic": ""
+          }
+        ],
+        "raw_lines": [
+          "- 講者：Aravind Segu (Databricks 軟體工程師)"
+        ]
+      },
+      {
+        "index": 9,
+        "time": "15:15",
+        "time_label": "03:15 PM",
+        "title": "招待會與海報展示",
+        "kind": "break",
+        "speakers": [],
+        "raw_lines": []
+      }
+    ]
+  },
+  "compass": {
+    "order": 3,
+    "name_zh": "Compass 舞台",
+    "name_en": "Compass Stage",
+    "sessions": [
+      {
+        "index": 1,
+        "time": "10:00",
+        "time_label": "10:00 AM",
+        "title": "第 1 場：AI 安全性 - 主題演講",
+        "kind": "content",
+        "speakers": [
+          {
+            "name": "Chris Bregler",
+            "affiliation": "Google DeepMind 資深總監兼傑出科學家；奧斯卡科學技術獎得主",
+            "role": "講者",
+            "topic": "深偽技術 (Deepfakes) 與其他：配備新工具的代理人如何減輕影響並提供更多脈絡"
+          }
+        ],
+        "raw_lines": [
+          "- Chris Bregler (Google DeepMind 資深總監兼傑出科學家；奧斯卡科學技術獎得主)",
+          "*主題：深偽技術 (Deepfakes) 與其他：配備新工具的代理人如何減輕影響並提供更多脈絡*"
+        ]
+      },
+      {
+        "index": 2,
+        "time": "10:15",
+        "time_label": "10:15 AM",
+        "title": "第 1 場：AI 安全性 - 精選演講",
+        "kind": "content",
+        "speakers": [
+          {
+            "name": "Kathy Baxter",
+            "affiliation": "Salesforce 負責任 AI 與技術副總裁兼首席架構師",
+            "role": "講者",
+            "topic": "迴圈中的人類：引導 AI 現實以促進員工繁榮"
+          },
+          {
+            "name": "Lovedeep Gondara",
+            "affiliation": "Vanguard AI 研發主管；英屬哥倫比亞大學兼任教授",
+            "role": "講者",
+            "topic": "受監管領域中值得信賴的代理型 AI：將強健性、隱私與問責制視為共同設計的當務之急"
+          },
+          {
+            "name": "Alex Obadia",
+            "affiliation": "先進研究與發明機構計畫總監",
+            "role": "講者",
+            "topic": "代理人社會：以機器速度建立信任，從位元到原子"
+          },
+          {
+            "name": "Neil Lawrence",
+            "affiliation": "Trent AI 首席科學家兼共同創辦人",
+            "role": "講者",
+            "topic": "可行系統、判斷力與 AI 安全性"
+          },
+          {
+            "name": "Huan Sun",
+            "affiliation": "俄亥俄州立大學副教授",
+            "role": "講者",
+            "topic": "每天都更聰明、更安全？電腦使用代理人的持續學習與安全性"
+          },
+          {
+            "name": "Navrina Singh",
+            "affiliation": "Credo AI 執行長兼創辦人",
+            "role": "講者",
+            "topic": "贏得自主權：代理型企業的治理即程式碼"
+          }
+        ],
+        "raw_lines": [
+          "- Kathy Baxter (Salesforce 負責任 AI 與技術副總裁兼首席架構師)",
+          "*主題：迴圈中的人類：引導 AI 現實以促進員工繁榮*",
+          "- Lovedeep Gondara (Vanguard AI 研發主管；英屬哥倫比亞大學兼任教授)",
+          "*主題：受監管領域中值得信賴的代理型 AI：將強健性、隱私與問責制視為共同設計的當務之急*",
+          "- Alex Obadia (先進研究與發明機構計畫總監)",
+          "*主題：代理人社會：以機器速度建立信任，從位元到原子*",
+          "- Neil Lawrence (Trent AI 首席科學家兼共同創辦人)",
+          "*主題：可行系統、判斷力與 AI 安全性*",
+          "- Huan Sun (俄亥俄州立大學副教授)",
+          "*主題：每天都更聰明、更安全？電腦使用代理人的持續學習與安全性*",
+          "- Navrina Singh (Credo AI 執行長兼創辦人)",
+          "*主題：贏得自主權：代理型企業的治理即程式碼*"
+        ]
+      },
+      {
+        "index": 3,
+        "time": "11:00",
+        "time_label": "11:00 AM",
+        "title": "工作坊：您可以對話的基礎設施（由 SUSE 提供）",
+        "kind": "content",
+        "speakers": [
+          {
+            "name": "Jeff Price",
+            "affiliation": "SUSE 北美區域現場首席技術長",
+            "role": "講者",
+            "topic": ""
+          }
+        ],
+        "raw_lines": [
+          "- 講者：Jeff Price (SUSE 北美區域現場首席技術長)"
+        ]
+      },
+      {
+        "index": 4,
+        "time": "12:10",
+        "time_label": "12:10 PM",
+        "title": "午餐與海報展示",
+        "kind": "break",
+        "speakers": [],
+        "raw_lines": []
+      },
+      {
+        "index": 5,
+        "time": "13:00",
+        "time_label": "01:00 PM",
+        "title": "第 2 場：AI 系統 - 精選演講",
+        "kind": "content",
+        "speakers": [
+          {
+            "name": "Jun Yang",
+            "affiliation": "NVIDIA 運算架構資深總監",
+            "role": "講者",
+            "topic": "使用代理人構建生產級 AI 系統：經驗教訓、陷阱與極限"
+          },
+          {
+            "name": "Ankit Sobti",
+            "affiliation": "Postman 共同創辦人兼首席技術長",
+            "role": "講者",
+            "topic": "從代理人展示到生產環境：Postman 如何構建可靠的 AI 代理人基礎設施"
+          },
+          {
+            "name": "Rahul Bakshi",
+            "affiliation": "Amazon 應用科學 (邊緣 AI) 總監",
+            "role": "講者",
+            "topic": "根據訊號擴展運算"
+          },
+          {
+            "name": "John Liu",
+            "affiliation": "AWS 首席產品經理",
+            "role": "講者",
+            "topic": "模型最佳化的循環"
+          },
+          {
+            "name": "Jongryool Kim",
+            "affiliation": "SK hynix 資深總監兼 AI 系統基礎設施主管",
+            "role": "講者",
+            "topic": "在機架規模上使用共享記憶體 KV 快取的分散式 LLM 服務"
+          },
+          {
+            "name": "Ben Athiwaratkun",
+            "affiliation": "Together AI 核心機器學習 (Turbo) 資深總監",
+            "role": "講者",
+            "topic": "用於免驗證器演化的統一編排系統"
+          },
+          {
+            "name": "Tushar Krishna",
+            "affiliation": "喬治亞理工學院副教授；InfraVana 執行長",
+            "role": "講者",
+            "topic": "代理型 AI 如何改寫 AI 基礎設施的規則"
+          }
+        ],
+        "raw_lines": [
+          "- Jun Yang (NVIDIA 運算架構資深總監)",
+          "*主題：使用代理人構建生產級 AI 系統：經驗教訓、陷阱與極限*",
+          "- Ankit Sobti (Postman 共同創辦人兼首席技術長)",
+          "*主題：從代理人展示到生產環境：Postman 如何構建可靠的 AI 代理人基礎設施*",
+          "- Rahul Bakshi (Amazon 應用科學 (邊緣 AI) 總監)",
+          "*主題：根據訊號擴展運算*",
+          "- John Liu (AWS 首席產品經理)",
+          "*主題：模型最佳化的循環*",
+          "- Jongryool Kim (SK hynix 資深總監兼 AI 系統基礎設施主管)",
+          "*主題：在機架規模上使用共享記憶體 KV 快取的分散式 LLM 服務*",
+          "- Ben Athiwaratkun (Together AI 核心機器學習 (Turbo) 資深總監)",
+          "*主題：用於免驗證器演化的統一編排系統*",
+          "- Tushar Krishna (喬治亞理工學院副教授；InfraVana 執行長)",
+          "*主題：代理型 AI 如何改寫 AI 基礎設施的規則*"
+        ]
+      },
+      {
+        "index": 6,
+        "time": "13:45",
+        "time_label": "01:45 PM",
+        "title": "第 3 場：企業 AI - 精選演講",
+        "kind": "content",
+        "speakers": [
+          {
+            "name": "Eno Reyes",
+            "affiliation": "Factory AI 共同創辦人兼首席技術長",
+            "role": "講者",
+            "topic": "構建軟體工廠"
+          },
+          {
+            "name": "Ankit Goyal",
+            "affiliation": "LinkedIn 首席主任軟體工程師",
+            "role": "講者",
+            "topic": "用於長時間運作代理人的基礎設施"
+          },
+          {
+            "name": "Daniel Homola",
+            "affiliation": "BMW 研究首席 AI 工程師",
+            "role": "講者",
+            "topic": "從多代理人模式到可靠的編排"
+          },
+          {
+            "name": "Christopher Petrillo",
+            "affiliation": "維基媒體基金會首席產品經理",
+            "role": "講者",
+            "topic": "代理型 AI 與人類核心：擴展維基媒體的參與模式"
+          },
+          {
+            "name": "Nayaki Nayyar",
+            "affiliation": "Siteimprove 執行長",
+            "role": "講者",
+            "topic": "從 SaaS 轉型為代理型企業"
+          },
+          {
+            "name": "Surbhi Rathore",
+            "affiliation": "Invoca 副總裁，AI 產品與策略",
+            "role": "講者",
+            "topic": "代理型 AI 是一個偽裝成技術突破的使用者體驗問題"
+          },
+          {
+            "name": "Daniel Fink",
+            "affiliation": "Cognizant AI 工程負責人",
+            "role": "講者",
+            "topic": "利用 Neuro SAN 擴展配置驅動的多代理人網路"
+          }
+        ],
+        "raw_lines": [
+          "- Eno Reyes (Factory AI 共同創辦人兼首席技術長)",
+          "*主題：構建軟體工廠*",
+          "- Ankit Goyal (LinkedIn 首席主任軟體工程師)",
+          "*主題：用於長時間運作代理人的基礎設施*",
+          "- Daniel Homola (BMW 研究首席 AI 工程師)",
+          "*主題：從多代理人模式到可靠的編排*",
+          "- Christopher Petrillo (維基媒體基金會首席產品經理)",
+          "*主題：代理型 AI 與人類核心：擴展維基媒體的參與模式*",
+          "- Nayaki Nayyar (Siteimprove 執行長)",
+          "*主題：從 SaaS 轉型為代理型企業*",
+          "- Surbhi Rathore (Invoca 副總裁，AI 產品與策略)",
+          "*主題：代理型 AI 是一個偽裝成技術突破的使用者體驗問題*",
+          "- Daniel Fink (Cognizant AI 工程負責人)",
+          "*主題：利用 Neuro SAN 擴展配置驅動的多代理人網路*"
+        ]
+      },
+      {
+        "index": 7,
+        "time": "14:30",
+        "time_label": "02:30 PM",
+        "title": "第 4 場：代理人評估與基準測試 - 主題演講",
+        "kind": "content",
+        "speakers": [
+          {
+            "name": "Debarshi Raha",
+            "affiliation": "DigitalOcean 副總裁暨專責工程師",
+            "role": "講者",
+            "topic": "偏好大於基準測試：為團隊實際建置方式而設計的模型路由"
+          }
+        ],
+        "raw_lines": [
+          "- Debarshi Raha (DigitalOcean 副總裁暨專責工程師)",
+          "*主題：偏好大於基準測試：為團隊實際建置方式而設計的模型路由*"
+        ]
+      },
+      {
+        "index": 8,
+        "time": "14:45",
+        "time_label": "02:45 PM",
+        "title": "第 4 場：代理人評估與基準測試 - 精選演講",
+        "kind": "content",
+        "speakers": [
+          {
+            "name": "Yuan (Emily) Xue",
+            "affiliation": "Scale AI 企業 AI 負責人",
+            "role": "講者",
+            "topic": "企業部署前的考驗"
+          },
+          {
+            "name": "Chenguang Wang",
+            "affiliation": "加州大學聖克魯斯分校助理教授；Scale AI 研究顧問",
+            "role": "講者",
+            "topic": "從訓練到評估：在 Scale AI 建置代理型 AI 的開源秘方"
+          },
+          {
+            "name": "Zelin Wan, Ph.D.",
+            "affiliation": "Postman 資深 AI 工程師",
+            "role": "講者",
+            "topic": "衡量生產環境中長週期任務的 API 代理人可靠性"
+          },
+          {
+            "name": "Rahul Krishna",
+            "affiliation": "IBM 軟體創新實驗室資深研究科學家",
+            "role": "講者",
+            "topic": "ScarfBench：代理人能遷移企業級 Java 嗎？"
+          },
+          {
+            "name": "Grace Tang",
+            "affiliation": "Hex 的 AI",
+            "role": "講者",
+            "topic": "資料基準測試：一切都是虛構的，分數也不重要"
+          },
+          {
+            "name": "Arindam Sett",
+            "affiliation": "Genentech 首席機器學習工程師",
+            "role": "講者",
+            "topic": "AIDaR：AI 資料整備度評估框架"
+          },
+          {
+            "name": "Scott Clark",
+            "affiliation": "Distributional 共同創辦人暨執行長",
+            "role": "講者",
+            "topic": "更好的評估如何透過加速科學發現帶來豐碩成果"
+          },
+          {
+            "name": "Aayush Agrawal",
+            "affiliation": "Uber 產品負責人",
+            "role": "講者",
+            "topic": "評估：代理人改進 of 引擎"
+          }
+        ],
+        "raw_lines": [
+          "- Yuan (Emily) Xue (Scale AI 企業 AI 負責人)",
+          "*主題：企業部署前的考驗*",
+          "- Chenguang Wang (加州大學聖克魯斯分校助理教授；Scale AI 研究顧問)",
+          "*主題：從訓練到評估：在 Scale AI 建置代理型 AI 的開源秘方*",
+          "- Zelin Wan, Ph.D. (Postman 資深 AI 工程師)",
+          "*主題：衡量生產環境中長週期任務的 API 代理人可靠性*",
+          "- Rahul Krishna (IBM 軟體創新實驗室資深研究科學家)",
+          "*主題：ScarfBench：代理人能遷移企業級 Java 嗎？*",
+          "- Grace Tang (Hex 的 AI)",
+          "*主題：資料基準測試：一切都是虛構的，分數也不重要*",
+          "- Arindam Sett (Genentech 首席機器學習工程師)",
+          "*主題：AIDaR：AI 資料整備度評估框架*",
+          "- Scott Clark (Distributional 共同創辦人暨執行長)",
+          "*主題：更好的評估如何透過加速科學發現帶來豐碩成果*",
+          "- Aayush Agrawal (Uber 產品負責人)",
+          "*主題：評估：代理人改進 of 引擎*"
+        ]
+      },
+      {
+        "index": 9,
+        "time": "15:40",
+        "time_label": "03:40 PM",
+        "title": "酒會與海報展示",
+        "kind": "break",
+        "speakers": [],
+        "raw_lines": []
+      }
+    ]
+  }
+}

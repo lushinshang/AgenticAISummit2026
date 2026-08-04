@@ -1,0 +1,90 @@
+{
+  "stage": "plenary",
+  "part": "afternoon",
+  "total_paragraphs": 299,
+  "segments": [
+    {
+      "session_index": 9,
+      "time": "13:30",
+      "title": "第 3 場次：代理型 AI 基礎能力 - 專題演講",
+      "start_para": 1,
+      "end_para": 24,
+      "evidence": "\"My name is Maxwell Zeff... The first is none other than Dawn Song. She's a professor at UC Berkeley...\" 主持人 Maxwell Zeff 開場並介紹第一位講者 Dawn Song，即場次正式開始。",
+      "confidence": "high"
+    },
+    {
+      "session_index": 10,
+      "time": "13:50",
+      "title": "第 3 場次：代理型 AI 基礎能力 - 精選演講",
+      "start_para": 25,
+      "end_para": 104,
+      "evidence": "\"Next up, we're going to have another speaker. We have Oriel Vignoles, VP of research at Google DeepMind...\" Dawn Song 演講結束、主持人立即介紹下一位講者 Oriol Vinyals，段落內同時包含結尾與轉場，故以此段為起點；此段落內另有一句轉場敘述誤植主持人姓名為「ALLAN NAGARAJANI」等（轉錄辨識講者姓名的雜訊），但介紹 Jerry Tworek/Dan Roth/Weizhu Chen 的語句清楚可辨，判斷此區間涵蓋五位講者（實際口說順序為 Vinyals→Zaremba→Tworek→Roth→Chen，與議程列表順序不同，但屬同一議程項目）。",
+      "confidence": "high"
+    },
+    {
+      "session_index": 11,
+      "time": "14:35",
+      "title": "第 3 場次：代理型 AI 基礎能力 - 座談會",
+      "start_para": 105,
+      "end_para": 128,
+      "evidence": "\"All right. Well, that was a fascinating number of speeches, and now we're actually going to have a panel with all of these people.\" 主持人明確宣告演講結束、座談會開始，並邀請所有講者上台。",
+      "confidence": "high"
+    },
+    {
+      "session_index": 12,
+      "time": "15:10",
+      "title": "第 4 場次：機器人與世界模型 - 精選演講",
+      "start_para": 129,
+      "end_para": 208,
+      "evidence": "\"My name is Guru Chahal. I'm a partner at Lightspeed Venture Partners, and I'll be chairing this session on robotics and world models... it's my pleasure to introduce our first speakers, Sergey Levine.\" 新主持人 Guru Chahal 開場並介紹本場次第一位講者。",
+      "confidence": "high"
+    },
+    {
+      "session_index": 13,
+      "time": "15:55",
+      "title": "第 4 場次：機器人與世界模型 - 座談會",
+      "start_para": 209,
+      "end_para": 241,
+      "evidence": "\"You might know, I certainly do, that we're running a little bit behind on time. So we're gonna reduce the time for the panel only slightly...\" Guru Chahal 在五位講者演講結束後宣布進入座談會（因超時而壓縮座談時間）。",
+      "confidence": "high"
+    },
+    {
+      "session_index": 14,
+      "time": "16:20",
+      "title": "休息",
+      "start_para": null,
+      "end_para": null,
+      "evidence": "逐字稿在 12907.34 秒（座談結束宣布休息）之後直接跳到 13832.84 秒（下一場開場），中間約 925 秒的實際休息時段沒有任何逐字稿內容，故無對應段落。",
+      "confidence": "high"
+    },
+    {
+      "session_index": 15,
+      "time": "16:30",
+      "title": "第 5 場次：資本市場中的代理型 AI - 座談會",
+      "start_para": 242,
+      "end_para": 272,
+      "evidence": "\"My name is Jeff Wecker... I run an engineering for an investment management firm called Two Sigma.\" 主持人 Brad Olson（\"My name is Brad Olson, I'm the deputy bureau chief at the Wall Street Journal\"）開場後，與談人依序自我介紹，本段落即為休息結束、座談開始的第一段。",
+      "confidence": "high"
+    },
+    {
+      "session_index": 16,
+      "time": "17:00",
+      "title": "爐邊對談",
+      "start_para": 273,
+      "end_para": 296,
+      "evidence": "\"I think that concludes our panel today... it's my pleasure now to just introduce the next speakers... a fireside chat... Andrew Ng, co-founder of Google Brain...\" 座談會主持人宣布座談結束並介紹接下來的爐邊對談嘉賓 Andrew Ng 與 Alfred Lin。",
+      "confidence": "high"
+    },
+    {
+      "session_index": 17,
+      "time": "17:30",
+      "title": "交流酒會與海報發表",
+      "start_para": 297,
+      "end_para": 298,
+      "evidence": "\"This ends the program for today. And we have poster presentations and reception food outside on the Lower Sparrow Plaza.\" 爐邊對談結束，主持人宣布當日議程結束並引導至海報發表與交流酒會。",
+      "confidence": "high"
+    }
+  ],
+  "head_noise": [0],
+  "notes": "para 0（\"We're going to start the afternoon session at 1.45... I hope you guys enjoyed lunch...\"）為午休結束前的場地廣播，早於主持人正式開場（index 9），列為 head_noise。index 10 議程內五位講者實際上台順序（Vinyals→Zaremba→Tworek→Roth→Chen）與 agenda_split 檔案中列出的順序（Zaremba, Tworek, Vinyals, Roth, Chen）不同，但因屬同一議程項目（同一時段的精選演講區塊），未進一步切分，僅在 evidence 中註記；不影響 start_para/end_para 判定。index 14（休息）在逐字稿中找不到對應段落（時間軸出現明顯跳躍），標記 start_para/end_para 為 null，但仍計入 segments 陣列以維持與 agenda 議程一一對應。"
+}

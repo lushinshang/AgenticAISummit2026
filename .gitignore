@@ -1,0 +1,23 @@
+# 第三方素材：大會錄影的原始英文轉錄稿，不重新散布
+en_srt/
+day2/
+
+# 大會官網的整站離線備份（另案產物，不重新發布他人網站）
+site_clone/
+
+# 開發過程的提案與任務清單
+sdd/
+
+# 可由腳本重生的中繼檔
+*/tools/chunks/
+*/tools/cleaned/
+*/tools/sections/
+*/tools/agenda_split/
+*/tools/speaker_tasks/
+*/tools/scratch/
+
+# 系統與編輯器
+.DS_Store
+__pycache__/
+*.pyc
+.playwright-mcp/

@@ -1,0 +1,36 @@
+{
+  "stage": "atlas",
+  "part": "morning",
+  "total_paragraphs": 111,
+  "segments": [
+    {
+      "session_index": 1,
+      "time": "10:00",
+      "title": "第 1 場：企業 AI - 主題演講",
+      "start_para": 0,
+      "end_para": 10,
+      "evidence": "para0: \"our first speaker is sunita verma with ironclad welcome\" — 主持人開場直接點名 Sunita Verma（拼寫對應議程 Sunita Verma），為本場開場白，故從第 0 段起算。",
+      "confidence": "high"
+    },
+    {
+      "session_index": 2,
+      "time": "10:15",
+      "title": "第 1 場：企業 AI - 精選演講",
+      "start_para": 11,
+      "end_para": 43,
+      "evidence": "para11: \"all right thank you sunita next up we have ori goshen with ai21\" — 主持人感謝 Sunita 並介紹下一位講者 ori goshen（對應 Ori Goshen），此段內含五位講者依序交接（ori goshen→para11, renee payetta/rene pajta→para20, vincent sun chen→para26, david klein/dan klein 代打→para35），故整段列為同一議程項目。",
+      "confidence": "high"
+    },
+    {
+      "session_index": 3,
+      "time": "11:10",
+      "title": "工作坊：從助理到 AI 員工：設計擁有角色而非任務的代理人（由 Ema 提供）",
+      "start_para": 44,
+      "end_para": 110,
+      "evidence": "para44: \"all right thank you dan next up we have a workshop with emma\" — 主持人感謝 Dan Klein 並引入 Ema 工作坊，隨後段落出現 Anushka、Soham、Eric Victorson 等講者姓名（對應議程 Anushka Pathak、Soham Shah、Eric Victorson），最後一段以 lunchtime 收尾，延續到素材結尾。",
+      "confidence": "high"
+    }
+  ],
+  "head_noise": [],
+  "notes": "議程表僅列 3 場（含一場多講者的精選演講合併為一筆，不含獨立 break 項目），故無 null 需求。session_index 2 的原始講者 David Hsu 因故未到場，由 Dan Klein 代打（見 para35：\"david klein david shoe i'm sorry dan klein david shoe will not be able to make it for this morning session\"），內容與議程 David Hsu 主題不同，但仍歸屬同一時段（10:15 精選演講）故不另立段落，僅在此註記。session_index 3 workshop 開場前有約 3 分鐘設備調整的空白/雜訊（para45-47 為現場音控對話 \"How are you? I'm Travis\" 等），但因與工作坊為同一時段連續事件，未單獨切出，仍計入 workshop 段落。"
+}

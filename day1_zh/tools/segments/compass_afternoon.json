@@ -1,0 +1,54 @@
+{
+  "stage": "compass",
+  "part": "afternoon",
+  "total_paragraphs": 291,
+  "segments": [
+    {
+      "session_index": 5,
+      "time": "13:30",
+      "title": "第 2 場：框架與開發平台 - 精選演講",
+      "start_para": 0,
+      "end_para": 68,
+      "evidence": "All right, welcome everybody to the afternoon sessions. if you could quiet down and take your seats please.",
+      "confidence": "high"
+    },
+    {
+      "session_index": 6,
+      "time": "14:20",
+      "title": "工作坊：建立在失敗中存活的 AI 代理人（由 Temporal 提供）",
+      "start_para": 69,
+      "end_para": 152,
+      "evidence": "welcome to Stick Around and get online with Nikolai who's going to step through building AI agents that's to fight failure",
+      "confidence": "high"
+    },
+    {
+      "session_index": 7,
+      "time": "15:20",
+      "title": "第 3 場：基礎能力 - 精選演講",
+      "start_para": 153,
+      "end_para": 214,
+      "evidence": "Now we're moving on to continued talking sessions. We have Doha, Principal Applied Scientist at Microsoft with Mindful Agents",
+      "confidence": "high"
+    },
+    {
+      "session_index": 8,
+      "time": "16:10",
+      "title": "工作坊：開放代理型堆疊：以開源、開放標準與可組合性打造 AI 系統的未來（由 Linux 基金會提供）",
+      "start_para": 215,
+      "end_para": 289,
+      "evidence": "And now we have a workshop. This is on Open Digentic Stack, Building the Future of AI Systems with Open Source, Open Standards",
+      "confidence": "high"
+    },
+    {
+      "session_index": 9,
+      "time": "17:10",
+      "title": "招待會與海報展示",
+      "start_para": 290,
+      "end_para": 290,
+      "evidence": "I believe we have reception downstairs for those who are interested. Thank you everyone.",
+      "confidence": "high"
+    }
+  ],
+  "head_noise": [],
+  "notes": "index 0 段開頭有「English Burface」轉錄雜訊，但同段後半即為主持人宣布下午場開始的開場白，故判定歸屬第一個議程（index 5）而非 head_noise。index 5 涵蓋 7 位講者（Wenbo Guo、Ramesh Raskar、Shiva Kasiviswanthan、Tanya Roosta、Denis Akhiyarov、Nilou Salehi、Johann Schleier-Smith），逐字稿中確實依序出現且與 agenda 講者名單吻合（Tanya Rusta/Denis Akirov/Nilo/Johan Schuyler-Smith 等為轉錄拼音誤差，發音相近可對應）；index 7 同樣涵蓋 5 位講者（Doga/Doha、Ian Fischer、Yu Su、Furong Huang、Raja Giryes/Aguirre），皆在段落 154-215 內依序出現；index 8 工作坊涵蓋 5 位講者（Matt White、Ben Burtenshaw、Daniel-Han Chen、Shang Yang、Romil Bhardwaj/Ramal Bardoage），皆在段落 216-289 內依序出現。因 agenda 將每場多位講者合併為單一議程項目，故本檔僅標記議程層級的起訖，未對內部逐一講者切分。"
+}

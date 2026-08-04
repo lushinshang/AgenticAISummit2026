@@ -1,0 +1,54 @@
+{
+  "stage": "atlas",
+  "part": "afternoon",
+  "total_paragraphs": 161,
+  "segments": [
+    {
+      "session_index": 5,
+      "time": "13:00",
+      "title": "第 2 場：代理人評估與基準測試 - 精選演講",
+      "start_para": 0,
+      "end_para": 61,
+      "evidence": "\"Welcome back, everyone... our first speaker is going to be Anastasios.\" 主持人開場並介紹本場第一位講者 Anastasios。此議程涵蓋 Anastasios、Michal、Priya、Srijith 四位講者輪流演講（段落 0–61），中間僅有主持人簡短過場（如第 19、36、48 段），未另立議程。",
+      "confidence": "high"
+    },
+    {
+      "session_index": 6,
+      "time": "13:45",
+      "title": "第 3 場：數學 AI - 主題演講",
+      "start_para": 62,
+      "end_para": 79,
+      "evidence": "\"Next up, we have Sergei Gukov with Caltech. And this is our last section. This is going to be math, AI for math.\" 主持人介紹下一位講者 Sergei Gukov，開啟數學 AI 主題演講。",
+      "confidence": "high"
+    },
+    {
+      "session_index": 7,
+      "time": "14:00",
+      "title": "第 3 場：數學 AI - 精選演講",
+      "start_para": 80,
+      "end_para": 100,
+      "evidence": "\"Thank you, Sergey. Next up, we have Li Jian with OpenAI.\" 主持人介紹 Lijie Chen（轉錄拼為 Li Jian，發音相近）。此議程含 Lijie Chen 與 Vijay Ganesh 兩位講者，中間第 94 段為講者間過場，非新議程。",
+      "confidence": "high"
+    },
+    {
+      "session_index": 8,
+      "time": "14:15",
+      "title": "工作坊：Omnigent - 適用於 AI 代理人的中繼框架（由 Databricks 提供）",
+      "start_para": 101,
+      "end_para": 160,
+      "evidence": "\"That's it for our talks. We have a workshop from Databricks... if you want to step up and lead that workshop.\" 主持人邀請 Databricks 講者 Aravind 上台開始工作坊。工作坊內有 Aravind 與 Drew（轉錄作 Drew/Sugar 等）多次輪流講解與 Q&A，皆屬同一工作坊內部換手，未另立議程，直至逐字稿結尾（第 160 段 \"That concludes Atlas Stage\"）。",
+      "confidence": "high"
+    },
+    {
+      "session_index": 9,
+      "time": "15:15",
+      "title": "招待會與海報展示",
+      "start_para": null,
+      "end_para": null,
+      "evidence": "無：逐字稿在工作坊 Q&A 結束、主持人宣布 \"That concludes Atlas Stage\" 後即結束（第 160 段），並未錄到招待會/海報展示環節的內容。",
+      "confidence": "low"
+    }
+  ],
+  "head_noise": [],
+  "notes": "session_index 7 講者姓名轉錄為 'Li Jian'，對應 agenda 的 Lijie Chen，發音相近判定命中。session_index 8 工作坊內部 Aravind 與 Drew（逐字稿中一度誤植為 'Sugar' 於第 152 段附近）多次輪流講解與回答聽眾問題，均視為同一工作坊，未切分。session_index 9（招待會與海報展示）為 break，逐字稿未涵蓋，start_para/end_para 標 null。"
+}

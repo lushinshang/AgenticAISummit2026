@@ -1,0 +1,72 @@
+{
+  "stage": "plenary",
+  "part": "morning",
+  "total_paragraphs": 238,
+  "segments": [
+    {
+      "session_index": 1,
+      "time": "09:15",
+      "title": "開幕致詞",
+      "start_para": 0,
+      "end_para": 37,
+      "evidence": "welcome you all, both in person and online, to the the 2026 agentic AI summit — 開場司儀 Jennifer Chayes 歡迎詞，直接銜接介紹 Rich Lyons 與 Dawn Song 上台致詞",
+      "confidence": "high"
+    },
+    {
+      "session_index": 2,
+      "time": "09:30",
+      "title": "第 1 場次：代理型 AI 基礎設施與平台 - 開幕專題演講",
+      "start_para": 38,
+      "end_para": 57,
+      "evidence": "I'm going to introduce Peter DeSantis from Amazon right now before he comes out to give his keynote speech — 主持人 Todd Graham 明確介紹下一位講者 Peter DeSantis",
+      "confidence": "high"
+    },
+    {
+      "session_index": 3,
+      "time": "09:50",
+      "title": "第 1 場次：代理型 AI 基礎設施與平台 - 精選演講",
+      "start_para": 58,
+      "end_para": 99,
+      "evidence": "We're going to talk to next Sarab, who is the Google VP at DeepMind — Todd Graham 介紹下一位講者，Sarab 為 Saurabh Tiwary 的聽寫誤植",
+      "confidence": "high"
+    },
+    {
+      "session_index": 4,
+      "time": "10:20",
+      "title": "第 1 場次：代理型 AI 基礎設施與平台 - 座談會",
+      "start_para": 100,
+      "end_para": 132,
+      "evidence": "We've got our panelists coming out right now. We're going to do a quick panel on agentic infrastructure and platform — 主持人明確宣布座談會開始",
+      "confidence": "high"
+    },
+    {
+      "session_index": 5,
+      "time": "10:45",
+      "title": "爐邊對談：RSI：揭開「Foom（智能爆炸）」的神秘面紗",
+      "start_para": 133,
+      "end_para": 171,
+      "evidence": "Jaz Seacon, who's going to do a fireside chat, a virtual fireside chat, no actual fire, with Don Song — Jaz Seacon 為 Jasjeet Sekhon 聽寫誤植，且後段提及其 chief strategy officer at Google DeepMind 職稱與 agenda 相符",
+      "confidence": "high"
+    },
+    {
+      "session_index": 6,
+      "time": "11:10",
+      "title": "第 2 場次：軟體工程的未來 - 精選演講",
+      "start_para": 172,
+      "end_para": 221,
+      "evidence": "I'm your session chair for the second session called The Future of Software Development — 新任司儀 Anjney Midha 宣布第 2 場次開始，隨後介紹 Peter Steinberger 等四位講者",
+      "confidence": "high"
+    },
+    {
+      "session_index": 7,
+      "time": "11:35",
+      "title": "第 2 場次：軟體工程 the 未來 - 座談會",
+      "start_para": 222,
+      "end_para": 237,
+      "evidence": "So please grab a seat. Make yourself comfy. We're running a little bit behind. And so we're going to do... we have 14 minutes — 主持人請四位講者入座進行座談會，隨後於下段提及座談名稱 Path to Enlightenment",
+      "confidence": "high"
+    }
+  ],
+  "head_noise": [],
+  "notes": "無"
+}

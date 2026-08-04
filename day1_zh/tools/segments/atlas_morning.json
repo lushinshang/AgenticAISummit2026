@@ -1,0 +1,36 @@
+{
+  "stage": "atlas",
+  "part": "morning",
+  "total_paragraphs": 139,
+  "segments": [
+    {
+      "session_index": 1,
+      "time": "10:00",
+      "title": "第 1 場次：基礎能力 - 專題演講",
+      "start_para": 0,
+      "end_para": 35,
+      "evidence": "It's Zhang Gao with Microsoft. So come on up, Zhang.（Travis Fraser 開場並介紹第一位講者，Zhang Gao 為 Jianfeng Gao 的轉錄誤拼，發音相近）",
+      "confidence": "high"
+    },
+    {
+      "session_index": 2,
+      "time": "10:30",
+      "title": "第 1 場次：基礎能力 - 精選演講",
+      "start_para": 36,
+      "end_para": 62,
+      "evidence": "Next up, we have Giambautista Parascandoyo, or GB, with OpenAI.（主持人介紹下一位講者 Giambattista Parascandolo，開啟精選演講場次）",
+      "confidence": "high"
+    },
+    {
+      "session_index": 3,
+      "time": "10:50",
+      "title": "工作坊：將聊天機器人轉變為代理人：Daytona 展示現代強化學習的面貌",
+      "start_para": 63,
+      "end_para": 138,
+      "evidence": "Next up, we have a workshop from Daytona, and it's gonna be an hour session...so welcome up, Daytona.（主持人明確介紹 Daytona 工作坊，且提及結束後即午餐，與 agenda 對應）",
+      "confidence": "high"
+    }
+  ],
+  "head_noise": [],
+  "notes": "無。段落 0 即為 Travis Fraser 開場並介紹第一位講者，不算議程外雜訊；工作坊段落中間夾雜大量投影設備故障的技術性對話（約 index 65-79），仍歸屬同一議程未另切。最後一段（index 138）為工作坊結尾與午餐宣布，一併算入該議程結束。"
+}

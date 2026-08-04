@@ -1,0 +1,65 @@
+{
+  "stage": "nexus",
+  "part": "afternoon",
+  "total_paragraphs": 279,
+  "segments": [
+    {
+      "session_index": 5,
+      "time": "13:30",
+      "title": "第 2 場：編碼與網頁代理人 - 精選演講",
+      "start_para": 1,
+      "end_para": 49,
+      "evidence": "\"Please help me welcome our first speaker for session two, Salias Alberti.\" 主持人明確介紹 session two 首位講者，Salias 為 Silas Alberti 的音近誤植，對應議程首位講者 Silas Alberti。",
+      "confidence": "high"
+    },
+    {
+      "session_index": 6,
+      "time": "14:05",
+      "title": "工作坊（由 Fetcherr 提供）",
+      "start_para": 50,
+      "end_para": 96,
+      "evidence": "\"next up, we have a workshop by Fetcher. So please help me welcome Uri Yerushalmi to the stage.\" 明確標示這是 Fetcher（Fetcherr）提供的 workshop，且講者 Uri Yerushalmi 姓名與議程完全一致。",
+      "confidence": "high"
+    },
+    {
+      "session_index": 7,
+      "time": "15:05",
+      "title": "第 3 場：金融與醫療保健領域的代理型 AI - 精選演講",
+      "start_para": 97,
+      "end_para": 137,
+      "evidence": "\"please help me welcome our next speaker, Kushneram Kinthapati. Kushneram is the chief scientist at Oracle Health.\" Kushneram Kinthapati 為 Krishnaram Kenthapadi 的音近誤植，且職稱「Oracle Health 首席科學家」與議程完全吻合。",
+      "confidence": "high"
+    },
+    {
+      "session_index": 8,
+      "time": "15:30",
+      "title": "第 4 場：安全的代理型 AI - 精選演講",
+      "start_para": 138,
+      "end_para": 219,
+      "evidence": "\"please help me welcome John Rav Shandy. He is the CTO of the Thallus Group.\" John Rav Shandy／Thallus Group 分別是 Jon-Rav Shende／Thales Group 的音近誤植，職稱 CTO 與議程相符，為本場第一位講者。",
+      "confidence": "high"
+    },
+    {
+      "session_index": 9,
+      "time": "16:45",
+      "title": "工作坊：代理人評估的未來",
+      "start_para": 220,
+      "end_para": 278,
+      "evidence": "\"next up we've got a workshop... about the future of agent evaluation... please help me welcome You-Sung.\" 講題「the future of agent evaluation」與議程標題「代理人評估的未來」完全一致，議程未列講者姓名，僅以主題判定。",
+      "confidence": "high"
+    },
+    {
+      "session_index": 10,
+      "time": "17:45",
+      "title": "招待會與海報展示",
+      "start_para": null,
+      "end_para": null,
+      "evidence": "無。逐字稿在最後一段（index 278）以主持人宣布當天議程結束、感謝與會者作結，未錄到「招待會與海報展示」開場或相關語句。",
+      "confidence": "low"
+    }
+  ],
+  "head_noise": [
+    0
+  ],
+  "notes": "1) index 9（代理人評估的未來工作坊）內部有四段子演講（AgentBeats、Agent's Last Exam、Cyber 系列評估、Verifiable Code Generation），皆為同一工作坊內換手，未拆分為新議程，符合任務要求。2) 議程 index 8（第4場安全的代理型AI）列有 7 位講者，但逐字稿中僅找到 6 位對應演講（Jon-Rav Shende、Bo Li、Milad Nasr、Itsik Mantin、John A McDermid、Mohamed Nabeel），未發現 Eric Wallace（OpenAI 研究員，講題「訓練強健的代理人」）的介紹或演講段落，疑似逐字稿缺漏或轉錄時被跳過；因議程切分單位是整場 session 而非個別講者，此缺漏不影響 segments 邊界判定，但特此註記。3) index 10（招待會與海報展示）在本檔逐字稿範圍內找不到對應段落，start_para 標為 null，最後一段（index 278）為主持人宣布散場的收尾語，並非招待會開場。"
+}

@@ -1,0 +1,63 @@
+{
+  "stage": "atlas",
+  "part": "afternoon",
+  "total_paragraphs": 316,
+  "segments": [
+    {
+      "session_index": 5,
+      "time": "13:30",
+      "title": "第 2 場次：機器人與世界模型 - 專題演講",
+      "start_para": 0,
+      "end_para": 33,
+      "evidence": "First up, we have Peter Stone with Sony AI and UT Austin. Welcome, Peter. 主持人開場點名第一位講者 Peter Stone，議程首句即為介紹詞。",
+      "confidence": "high"
+    },
+    {
+      "session_index": 6,
+      "time": "14:00",
+      "title": "第 2 場次：機器人與世界模型 - 精選演講",
+      "start_para": 34,
+      "end_para": 73,
+      "evidence": "All right, thank you Vincent. Next up is one of our very own Trevor Darrell with UC Berkeley. 主持人感謝上一場 Vincent 並介紹本場第一位講者 Trevor Darrell。",
+      "confidence": "high"
+    },
+    {
+      "session_index": 7,
+      "time": "14:30",
+      "title": "工作坊：開源代理人調查：Lambda 的安全競技場、精煉軌跡與自動最佳化",
+      "start_para": 74,
+      "end_para": 146,
+      "evidence": "All right, next up we have a workshop from Lambda. Welcome up Lambda, and this is a one hour session. 主持人明確介紹接下來是 Lambda 一小時工作坊，段落 76 起 Devina 自我介紹（researcher at Lambda），段落 134 起 Zach Mueller 自我介紹（head of developer relations at Lambda），皆屬同一工作坊內部換手，不另立議程。",
+      "confidence": "high"
+    },
+    {
+      "session_index": 8,
+      "time": "15:30",
+      "title": "工作坊：使用 Replit 代理人端到端構建代理型 AI 應用程式",
+      "start_para": 147,
+      "end_para": 217,
+      "evidence": "All right, I think we're ready for our next workshop. We have Brandon from Replit that's going to talk about a bunch of things like vibe coding. And welcome, Brandon, from Replit. 主持人明確介紹 Replit 工作坊與講者 Brandon。",
+      "confidence": "high"
+    },
+    {
+      "session_index": 9,
+      "time": "16:30",
+      "title": "第 3 場：框架與開發平台 - 精選演講",
+      "start_para": 218,
+      "end_para": 314,
+      "evidence": "All right, thank you Brandon. So we're gonna start back up our talks and our first one we have is Peter Rathi with Neo4j. 主持人感謝 Brandon 並宣布重新開始演講場次，介紹第一位講者 Philip Rathle（口誤唸成 Peter，隨後段落 219 更正為 Philip Rathi）。",
+      "confidence": "high"
+    },
+    {
+      "session_index": 10,
+      "time": "17:45",
+      "title": "招待會與海報展示",
+      "start_para": 315,
+      "end_para": 315,
+      "evidence": "All right, thank you, Ronjan. That's it for Atlas stage today. So thank you, everyone. There's reception and poster presentations on the first floor. 主持人宣布 Atlas 舞台當日議程結束並提及招待會與海報展示。",
+      "confidence": "high"
+    }
+  ],
+  "head_noise": [],
+  "notes": "無"
+}

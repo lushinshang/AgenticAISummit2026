@@ -1,0 +1,75 @@
+{
+  "stage": "plenary",
+  "part": "afternoon",
+  "total_paragraphs": 274,
+  "segments": [
+    {
+      "session_index": 7,
+      "time": "13:00",
+      "title": "第 2 場次：前沿研究 - 精選演講",
+      "start_para": 1,
+      "end_para": 31,
+      "evidence": "Danny and I thought, maybe we should give them an explanation why they were wrong... This is known as top-down processing. 逐字稿由此開始時已在 Ed Chi 演講中途（chain of thought 主題），Richard Socher 的演講片段落在 29:32 起點之前已遺失。",
+      "confidence": "medium"
+    },
+    {
+      "session_index": 8,
+      "time": "13:40",
+      "title": "第 2 場次：前沿研究 - 座談會",
+      "start_para": 32,
+      "end_para": 68,
+      "evidence": "So we now have a little panel discussion. We have 20 to 30 minutes. So I'll invite the speakers to come back out. 該段落前半是 Igor Babuschkin 演講結尾，後半宣布進入座談會。",
+      "confidence": "high"
+    },
+    {
+      "session_index": 9,
+      "time": "14:15",
+      "title": "第 3 場次：代理型 AI 開發者平台 - 座談會",
+      "start_para": 69,
+      "end_para": 109,
+      "evidence": "I am Megan Maroney. I edit the Axios AI Plus newsletter... our panel is about agentic AI developer platforms. 主持人 Megan Morrone（逐字稿誤拼為 Maroney，發音相近）自我介紹並說明座談主題。",
+      "confidence": "high"
+    },
+    {
+      "session_index": 10,
+      "time": "14:50",
+      "title": "第 4 場次：金融與法律領域的代理型 AI - 精選演講",
+      "start_para": 110,
+      "end_para": 149,
+      "evidence": "So, thank you. I'm here to host the session on AI agents in finance and legal. 主持人 Matt Carbonara 開場並引介本場次三位講者（Milind Naphade、Nikhil Chandhok、Faraz Shafiq）依序上台。",
+      "confidence": "high"
+    },
+    {
+      "session_index": 11,
+      "time": "15:20",
+      "title": "第 4 場次：金融與法律領域的代理型 AI - 座談會",
+      "start_para": 150,
+      "end_para": 183,
+      "evidence": "Amazing. Thank you, Faraz. Now we have 25 or so minutes to chat about the use of agents in legal and finance. Faraz 演講結束後，主持人 Matt Carbonara 宣布進入座談環節。",
+      "confidence": "high"
+    },
+    {
+      "session_index": 12,
+      "time": "15:50",
+      "title": "新創焦點",
+      "start_para": 184,
+      "end_para": 273,
+      "evidence": "Hello. So, we finally made it to the final session of the summit... So, startup spotlight. 主持人宣布進入新創焦點環節，之後 Narada AI、Cogni、NimbleMind、AgentID、Rely、Headroom、Founding Dev、ArmorIQ、Kinable AI、H Company、Ludo Robotics、Nimbleway（逐字稿拼作 Nimbo）等新創依序輪流簡報，均屬同一議程，未再切分。",
+      "confidence": "high"
+    },
+    {
+      "session_index": 13,
+      "time": "16:50",
+      "title": "交流酒會與海報發表",
+      "start_para": null,
+      "end_para": null,
+      "evidence": "逐字稿在最後閉幕致詞中僅提及 \"we still have a reception and a poster session in the MLK building\"（第 272 段），屬預告而非該場次本身開始，逐字稿於閉幕致詞後即結束，無對應內容，故標 null。",
+      "confidence": "low"
+    }
+  ],
+  "head_noise": [0],
+  "notes": "1) 第0段僅為單字 'Okay.'，判為雜訊。2) session_index 7 的起點為推斷值：逐字稿開頭（29:32）已在 Ed Chi 演講中途，Richard Socher 的演講內容應早於此已遺失，對應題目所述已知缺口，故信心度標 medium。3) 段落32、110、150、184 皆為「前一場結尾＋下一場開場」混合在同一段落內的情況，切點依主持人明顯的宣布/介紹語句判定，非逐字對半切分。4) 第12場「新創焦點」內部依序有 Narada AI、Cogni（逐字稿拼 Cogni/Cogny）、NimbleMind、AgentID（逐字稿拼 AgentID.AI）、Rely（agenda 拼 RELAI，逐字稿講者自稱公司為 'Rely'，發音相近判為同一家）、Headroom、Founding Dev（逐字稿講者說 'Founding Dev'，agenda 拼 Founding Dev 一致）、ArmorIQ、Kinable AI（agenda 拼 Keenable AI，逐字稿講者自稱 Kinable，發音相近）、H Company、Ludo Robotics、Nimbleway（agenda 拼 Nimble，逐字稿主持人稱 'Nimbo'，發音相近），依指示未再切分為個別議程。5) session_index 13（交流酒會）在逐字稿範圍內無對應開始內容，標 null。",
+  "source_check": {
+    "total_paragraphs_from_jsonl": 274
+  }
+}
